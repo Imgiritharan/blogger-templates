@@ -68,7 +68,7 @@ Here are the explanation for important tages.
 
 ### <b:widget> tag
 
-<b:widget> tag is used to customise the blogger page. Using <b:widget> we can configure the properties and display content based on user selection. Refer [Blogger book] (https://bloggerbook.blakbin.com/2018/11/blogger-bwidget-tag.html) to know more about widgets.
+<b:widget> tag is used to customise the blogger page. Using <b:widget> we can configure the properties and display content based on user selection. Refer [Blogger book](https://bloggerbook.blakbin.com/2018/11/blogger-bwidget-tag.html) to know more about widgets.
 
 Widgets have [<b:widget-settings>](https://bloggerbook.blakbin.com/2018/11/blogger-bwidget-settings-tag.html) and [<b:includable>](https://bloggerbook.blakbin.com/2018/11/blogger-binclude-and-bincludable-tag.html) tags. <b:widget-settings> have the [<b:widget-setting>](https://bloggerbook.blakbin.com/2018/11/blogger-bwidget-settings-tag.html) which holds the customer specified fields.
 
