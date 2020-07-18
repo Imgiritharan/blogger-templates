@@ -2,6 +2,8 @@
 
 Blogger templates are used to render html content in [Blogger](https://www.blogger.com) pages. This section describes how to create blogger templates with step by step guide.
 
+> Note: Tips to create blog templates are provided based on experience only. You can improvise the blogger template by adding more custom sections and widgets on your own.
+
 ## Basic template
 
 Below is the example to start with basic blogger template with Header and main section.
@@ -33,8 +35,8 @@ Below is the example to start with basic blogger template with Header and main s
   </head>
   <body>
     <b:section class='header' id='header' maxwidgets='1'>
-		<b:widget id='Header1' locked='true' title='Basic Blogger Template (Header)' type='Header'></b:widget>
-	</b:section>
+ 	<b:widget id='Header1' locked='true' title='Header Template (Header)' type='Header'></b:widget>
+    </b:section>
     
     <b:section class='main' id='main'>
     	<b:widget id='HTML1' locked='true' title='Blog content' type='HTML'></b:widget>
