@@ -44,8 +44,12 @@ Blogger template is an xml format style HTML code. Below is the example to start
   </body>
 </html>
   ```
+  
+## Imprtand tags
 
-## <b:section> tag
+Here are the explanation for important tages.
+
+### <b:section> tag
 
 <b:section> is used to create a div section in blog page. Blogger website will expect atleast one <b:section> to compile the template. Refer [Blogger book](https://bloggerbook.blakbin.com/2018/11/blogger-bsection-tag.html) to know more about <b:section>
 
@@ -62,7 +66,7 @@ Blogger template is an xml format style HTML code. Below is the example to start
 </b:section>
 ```
 
-## <b:widget> tag
+### <b:widget> tag
 
 <b:widget> tag is used to customise the blogger page. Using <b:widget> we can configure the properties and display content based on user selection. Refer [Blogger book] (https://bloggerbook.blakbin.com/2018/11/blogger-bwidget-tag.html) to know more about widgets.
 
@@ -99,6 +103,5 @@ Widget have many types, Below are the possible [types](https://sites.google.com/
 * VideoBar
 
 Just add a widget with each type in Blogger template editor to understand more about widgets. Widget should be added under section tag.
-
 
 
