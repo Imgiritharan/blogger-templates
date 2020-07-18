@@ -98,7 +98,7 @@ Widget have many types, Below are the possible [types](https://sites.google.com/
 * Navbar
 * VideoBar
 
-Just add a widget with each type in Blogger template editor to understand more about widgets.
+Just add a widget with each type in Blogger template editor to understand more about widgets. Widget should be added under section tag.
 
 
 
