@@ -6,7 +6,7 @@ Blogger templates are used to render html content in [Blogger](https://www.blogg
 
 ## Basic template
 
-Below is the example to start with basic blogger template with Header and main section.
+Blogger template is an xml format style HTML code. Below is the example to start with basic blogger template with Header and main section.
 
 ```
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -44,3 +44,61 @@ Below is the example to start with basic blogger template with Header and main s
   </body>
 </html>
   ```
+
+## <b:section> tag
+
+<b:section> is used to create a div section in blog page. Blogger website will expect atleast one <b:section> to compile the template. Refer [Blogger book](https://bloggerbook.blakbin.com/2018/11/blogger-bsection-tag.html) to know more about <b:section>
+
+#### syntax:
+```
+<b:section  cond='EXPRESSION'
+            class='STRING'
+            id='STRING'
+            name='STRING'
+            preferred='BOOLEAN'
+            showaddelement='BOOLEAN'
+            maxwidgets='NUMBER'>
+ 
+</b:section>
+```
+
+## <b:widget> tag
+
+<b:widget> tag is used to customise the blogger page. Using <b:widget> we can configure the properties and display content based on user selection. Refer [Blogger book] (https://bloggerbook.blakbin.com/2018/11/blogger-bwidget-tag.html) to know more about widgets.
+
+Widgets have [<b:widget-settings>](https://bloggerbook.blakbin.com/2018/11/blogger-bwidget-settings-tag.html) and [<b:includable>](https://bloggerbook.blakbin.com/2018/11/blogger-binclude-and-bincludable-tag.html) tags. <b:widget-settings> have the [<b:widget-setting>](https://bloggerbook.blakbin.com/2018/11/blogger-bwidget-settings-tag.html) which holds the customer specified fields.
+
+> Note: Blogger html editor will create the <b:widget-settings> and <b:includable> for the provided widget. Editor will use the default content and values to generate these fields. We can modify them based on our design.
+
+#### syntax
+```
+<b:widget id='STRING'
+          cond='EXPRESSION'
+          locked='BOOLEAN'
+          version='NUMBER'
+          title='STRING'
+          type='WIDGET_TYPE'
+          mobile='BOOLEAN'
+          visible='BOOLEAN'>
+ 
+</b:widget>
+```
+
+Widget have many types, Below are the possible [types](https://sites.google.com/site/templateofdoom/Home/blogger-template-widget-tag) of widget,
+* BlogArchive
+* Blog
+* Feed
+* Header
+* HTML
+* SingleImage
+* LinkList
+* List
+* Logo
+* BlogProfile
+* Navbar
+* VideoBar
+
+Just add a widget with each type in Blogger template editor to understand more about widgets.
+
+
+
